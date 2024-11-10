@@ -2,3 +2,4 @@
 .DS_Store
 __MACOSX
 mod-user-data/*
+!mod-user-data/.gitkeep
