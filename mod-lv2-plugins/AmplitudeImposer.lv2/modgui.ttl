@@ -1,0 +1,26 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<http://www.niallmoody.com/ndcplugs/ampimposer.htm>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-amplitude-imposer.html> ;
+        modgui:stylesheet <modgui/stylesheet-amplitude-imposer.css> ;
+        modgui:screenshot <modgui/screenshot-amplitude-imposer.png> ;
+        modgui:thumbnail <modgui/thumbnail-amplitude-imposer.png> ;
+        modgui:brand "DISTRHO" ;
+        modgui:label "Amplitude Imposer" ;
+        modgui:model "boxy" ;
+        modgui:panel "2-knobs" ;
+        modgui:color "purple" ;
+        modgui:knob "aluminium" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "depth" ;
+            lv2:name "Depth" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "thres" ;
+            lv2:name "Thres" ;
+        ] ;
+    ] .

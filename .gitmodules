@@ -1,0 +1,3 @@
+[submodule "mod-ui"]
+	path = mod-ui
+	url = https://github.com/tertiumndatur/mod-ui.git

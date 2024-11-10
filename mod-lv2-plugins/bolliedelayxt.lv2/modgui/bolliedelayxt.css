@@ -1,0 +1,275 @@
+@import url(/fonts/nexa/stylesheet.css);
+@import url(/fonts/questrial/stylesheet.css);
+
+
+/* = CONTAINER
+================================================ */
+.bolliedelayxt {
+    background-image:url(/resources/background.png{{{ns}}});
+    background-position:center center;
+    background-repeat:no-repeat;
+    background-size:650px 500px;
+    border-radius: 21px;
+    height:500px;
+    position:absolute;
+    width:650px;
+    padding: 10px 10px 10px 10px;
+}
+
+/* = Labels
+================================================ */
+
+.bolliedelayxt .bollie-plugin-name {
+    overflow:hidden;
+    position:absolute;
+    right:20px;
+    bottom: 15px;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+.bolliedelayxt .bollie-plugin-name h1 {
+    font-family:"cooper hewitt", Sans-serif !important;
+    font-weight: bold;
+    font-size:30px;
+    color: #898989;
+    line-height:1;
+}
+
+.bolliedelayxt .bollie-label {
+    text-transform:uppercase;
+    font-size:11px;
+    font-weight:bold;
+    color: #efefef;
+    display: block;
+    position: absolute;
+}
+
+/* = LIGHT ON/OFF
+================================================ */
+.bolliedelayxt .mod-light {
+    background-position:center center;
+    background-repeat:no-repeat;
+    bottom:35px;
+    height:20px;
+    width:32px;
+    left:80px;
+    position:absolute;
+}
+
+/* = Toggle
+================================================ */
+.bolliedelayxt .mod-toggle {
+    background-image:url(/resources/toggle.png{{{ns}}});
+    background-position:bottom center;
+    background-repeat:no-repeat;
+    background-size:auto 120px;
+    cursor:pointer;
+    height: 60px;
+    width: 43px;
+    margin: 4px auto 0 auto;
+}
+
+.bolliedelayxt .mod-toggle.on {
+    background-position: top center !important;
+}
+
+.bolliedelayxt .mod-toggle.bypass {
+    background-image:url(/resources/toggle.png{{{ns}}});
+    background-position:bottom center;
+    background-repeat:no-repeat;
+    background-size:auto 120px;
+    cursor:pointer;
+    height: 60px;
+    width: 43px;
+    margin: 4px auto 0 auto;
+    position: absolute;
+    left: 30px;
+    bottom: 15px;
+    z-index:30;
+}
+
+
+/* = KNOBS
+================================================ */
+.bolliedelayxt .bollie-group {
+    margin:5px 0px 0px 5px !important;
+    position:relative;
+    text-align:left;
+    z-index:30;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #888888;
+    width: 305px;
+    display:inline-block;
+    padding: 2px 2px 0px 2px;
+    text-align: center;
+}
+
+.bolliedelayxt .bollie-group.double {
+    margin:5px 0px 0px 5px !important;
+    position:relative;
+    text-align:left;
+    z-index:30;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #888888;
+    width: 615px;
+    display:inline-block;
+    padding: 2px 2px 0px 2px;
+    text-align: center;
+}
+
+.bolliedelayxt .bollie-group .mod-knob > span.mod-knob-title {
+    bottom:14px;
+    cursor:default;
+    display:block;
+    font-size:11px;
+    font-weight:bold;
+    height:12px;
+    left:0;
+    line-height:1;
+    margin:0;
+    overflow:hidden;
+    padding:0;
+    position:absolute;
+    right:0;
+    text-transform:uppercase;
+    text-align: center;
+    color: #000000;
+}
+
+.bolliedelayxt .bollie-group .mod-knob > span.mod-knob-title.bright {
+    text-align: center;
+    color: #cecece;
+    text-shadow: 1px 1px 1px rgba(0,0,0,15);
+}
+
+.bolliedelayxt .bollie-group .mod-knob .mod-knob-value {
+    bottom:0px;
+    font-size:11px;
+    left:0;
+    line-height:1;
+    position:absolute;
+    right:0;
+    z-index:60;
+    color: #000000;
+    background-color: #ffffff;
+    padding: 2px;
+    text-align: right;
+}
+
+.bolliedelayxt .bollie-group .mod-knob .bollie-value{
+    font-size:11px;
+    left:0;
+    line-height:1;
+    right:0;
+    z-index:60;
+    padding: 5px;
+    top: 23px;
+    color: #000000;
+    position:absolute;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.bolliedelayxt .bollie-group .mod-knob .mod-knob-image {
+    background-image:url(/resources/aluminium.png{{{ns}}});
+    background-repeat:no-repeat;
+    background-size:auto 60px;
+    height:60px;
+    width:60px;
+    margin:0 auto;
+}
+
+.bolliedelayxt .bollie-group .mod-knob {
+    display:inline-block;
+    height:88px;
+    width:70px;
+    margin:1px 1px;
+    overflow:hidden;
+    position:relative;
+}
+
+.bolliedelayxt .bollie-group .mod-knob.bpm {
+    display:inline-block;
+    height:88px;
+    width:200px;
+    margin:1px 1px;
+    overflow:hidden;
+    position:relative;
+    text-align: center;
+}
+
+.bolliedelayxt .bollie-group .mod-knob.bpm > span.mod-knob-title {
+    bottom:0px;
+    cursor:default;
+    display:block;
+    font-size:11px;
+    font-weight:bold;
+    height:20px;
+    left:0;
+    line-height:1;
+    margin:3px;
+    overflow:hidden;
+    padding:5px;
+    position:absolute;
+    right:0;
+    text-transform:uppercase;
+    text-align: center;
+    color: #000000;
+}
+
+.bolliedelayxt .bollie-group .mod-knob.bpm .bollie-value{
+    font-size:30px;
+    left:0;
+    line-height:1;
+    right:0;
+    top: 15px;
+    height: 40px;
+    z-index:60;
+    color: #000000;
+    position:absolute;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* = ENUMERATED LIST
+================================================ */
+
+.bolliedelayxt .mod-enumerated {
+    background-image:url(/resources/dropdown-arrow-black.png{{{ns}}});
+    background-position:right center;
+    background-repeat:no-repeat;
+    font-size:11px;
+    font-weight:bold;
+    left:0;
+    line-height:2;
+    overflow:hidden;
+    position:absolute;
+    right:0;
+    text-align:center;
+}
+
+.bolliedelayxt .mod-enumerated .mod-enumerated-selected {
+    padding:3px 9px;
+}
+
+.bolliedelayxt .mod-enumerated .mod-enumerated-list {
+    background-color:rgba(0,0,0,.9);
+    color:#fff;
+    display:none;
+    height:115px;
+    overflow:auto;
+    position:relative;
+}
+
+.bolliedelayxt .mod-enumerated .mod-enumerated-list > div {
+    padding:3px 9px;
+}
+
+.bolliedelayxt .mod-enumerated .mod-enumerated-list > div:hover {
+    background-color:rgba(255,255,255,.2);
+    cursor:pointer;
+}
+

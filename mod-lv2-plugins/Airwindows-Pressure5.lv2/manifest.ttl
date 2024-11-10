@@ -1,0 +1,5 @@
+@prefix lv2:  <http://lv2plug.in/ns/lv2core#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+<https://hannesbraun.net/ns/lv2/airwindows/pressure5>
+a lv2:Plugin ; lv2:binary <Pressure5.so> ; rdfs:seeAlso <Pressure5.ttl> .
+<https://hannesbraun.net/ns/lv2/airwindows/pressure5> rdfs:seeAlso <modgui.ttl> .

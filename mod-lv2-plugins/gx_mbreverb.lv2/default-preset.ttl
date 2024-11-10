@@ -1,0 +1,39 @@
+@prefix lv2:   <http://lv2plug.in/ns/lv2core#> .
+@prefix pset:  <http://lv2plug.in/ns/ext/presets#> .
+@prefix state: <http://lv2plug.in/ns/ext/state#> .
+
+<default-preset>
+	a pset:Preset ;
+	lv2:appliesTo <http://guitarix.sourceforge.net/plugins/gx_mbreverb_#_mbreverb_> ;
+	lv2:port [
+		lv2:symbol "DAMP1" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "DAMP2" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "DAMP3" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "DAMP4" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "DAMP5" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "ROOMSIZE1" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "ROOMSIZE2" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "ROOMSIZE3" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "ROOMSIZE4" ;
+		pset:value 0.5
+	] , [
+		lv2:symbol "ROOMSIZE5" ;
+		pset:value 0.5
+	] .
+

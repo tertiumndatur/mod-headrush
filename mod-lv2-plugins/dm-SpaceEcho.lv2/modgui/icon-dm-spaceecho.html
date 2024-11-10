@@ -1,0 +1,265 @@
+<div class="mod-pedal{{{cns}}}">
+  <div mod-role="drag-handle" class="mod-drag-handle"></div>
+
+  <section class="input mod-control-group">
+    <div class="mod-knob">
+      <div
+        class="mod-knob-image"
+        mod-role="input-control-port"
+        mod-port-symbol="input"
+      ></div>
+      <div class="mod-param-title">Input</div>
+    </div>
+  </section>
+
+  <section class="delay-time">
+    <div class="row mod-control-group">
+      <div class="mod-toggle">
+        <div class="mod-light-container">
+          <div class="mod-light"></div>
+          <div
+            class="mod-toggle-image"
+            mod-role="input-control-port"
+            mod-port-symbol="time_link"
+          ></div>
+        </div>
+        <div class="mod-param-title">Link</div>
+      </div>
+
+      <div class="mod-knob">
+        <div
+          class="mod-knob-image"
+          mod-role="input-control-port"
+          mod-port-symbol="time_left"
+        ></div>
+        <div class="mod-param-title">Time Left</div>
+      </div>
+
+      <div class="mod-knob">
+        <div
+          class="mod-knob-image"
+          mod-role="input-control-port"
+          mod-port-symbol="time_right"
+        ></div>
+        <div
+          class="mod-knob-image synced-time-knob"
+          mod-role="input-control-port"
+          mod-port-symbol="time_left"
+        ></div>
+        <div class="mod-param-title">Time Right</div>
+      </div>
+
+      <div class="mod-knob">
+        <div
+          class="mod-knob-image"
+          mod-role="input-control-port"
+          mod-port-symbol="feedback"
+        ></div>
+        <div class="mod-param-title">Feedback</div>
+      </div>
+    </div>
+
+    <div class="row mod-control-group">
+      <div class="mod-toggle">
+        <div class="mod-light-container">
+          <div class="mod-light"></div>
+          <div
+            class="mod-toggle-image"
+            mod-role="input-control-port"
+            mod-port-symbol="hold"
+          ></div>
+        </div>
+        <div class="mod-param-title two-lines-space">Hold</div>
+      </div>
+
+      <div class="mod-knob">
+        <div
+          class="mod-knob-image"
+          mod-role="input-control-port"
+          mod-port-symbol="wow_and_flutter"
+        ></div>
+        <div class="mod-param-title">Wow & Flutter</div>
+      </div>
+    </div>
+
+    <div class="row mod-control-group enumeration-group">
+      <div class="mod-enumeration">
+        <div
+          class="mod-enumerated"
+          mod-role="input-control-port"
+          mod-port-symbol="time_mode"
+          mod-widget="custom-select"
+        >
+          <div mod-role="enumeration-option" mod-port-value="1">Repitch</div>
+          <div mod-role="enumeration-option" mod-port-value="2">Fade</div>
+        </div>
+        <div class="mod-param-title two-lines-space">Time Mode</div>
+      </div>
+
+      <div class="mod-enumeration">
+        <div
+          class="mod-enumerated"
+          mod-role="input-control-port"
+          mod-port-symbol="channel_mode"
+          mod-widget="custom-select"
+        >
+          <div mod-role="enumeration-option" mod-port-value="1">Stereo</div>
+          <div mod-role="enumeration-option" mod-port-value="2">Ping-pong</div>
+        </div>
+        <div class="mod-param-title">Channel Mode</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="reverb-and-filters">
+    <div class="row mod-control-group">
+      <div class="mod-knob">
+        <div
+          class="mod-knob-image"
+          mod-role="input-control-port"
+          mod-port-symbol="reverb"
+        ></div>
+        <div class="mod-param-title">Reverb</div>
+      </div>
+
+      <div class="mod-knob">
+        <div
+          class="mod-knob-image"
+          mod-role="input-control-port"
+          mod-port-symbol="decay"
+        ></div>
+        <div class="mod-param-title">Decay</div>
+      </div>
+    </div>
+
+    <div class="row mod-control-group">
+      <div class="mod-knob">
+        <div
+          class="mod-knob-image"
+          mod-role="input-control-port"
+          mod-port-symbol="highpass_freq"
+        ></div>
+        <div class="mod-param-title">Highpass</div>
+      </div>
+
+      <div class="mod-knob">
+        <div
+          class="mod-knob-image"
+          mod-role="input-control-port"
+          mod-port-symbol="lowpass_freq"
+        ></div>
+        <div class="mod-param-title">Lowpass</div>
+      </div>
+    </div>
+
+    <div class="row mod-control-group">
+      <div class="mod-knob">
+        <div
+          class="mod-knob-image"
+          mod-role="input-control-port"
+          mod-port-symbol="highpass_res"
+        ></div>
+        <div class="mod-param-title">Res</div>
+      </div>
+
+      <div class="mod-knob">
+        <div
+          class="mod-knob-image"
+          mod-role="input-control-port"
+          mod-port-symbol="lowpass_res"
+        ></div>
+        <div class="mod-param-title">Res</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="output">
+    <div class="row mod-control-group">
+      <div class="mod-knob">
+        <div
+          class="mod-knob-image"
+          mod-role="input-control-port"
+          mod-port-symbol="output"
+        ></div>
+        <div class="mod-param-title">Output</div>
+      </div>
+
+      <div class="mod-knob">
+        <div
+          class="mod-knob-image"
+          mod-role="input-control-port"
+          mod-port-symbol="mix"
+        ></div>
+        <div class="mod-param-title">Mix</div>
+      </div>
+
+      <div class="mod-toggle">
+        <div class="mod-light-container vertical">
+          <div class="mod-light"></div>
+          <div
+            class="mod-toggle-image"
+            mod-role="input-control-port"
+            mod-port-symbol="limiter"
+          ></div>
+        </div>
+        <div class="mod-param-title">Limiter</div>
+      </div>
+    </div>
+
+    <div class="row mod-control-group">
+      <div class="mod-knob">
+        <div
+          class="mod-knob-image"
+          mod-role="input-control-port"
+          mod-port-symbol="duck"
+        ></div>
+        <div class="mod-param-title">Duck</div>
+      </div>
+
+      <div class="mod-knob">
+        <div
+          class="mod-knob-image"
+          mod-role="input-control-port"
+          mod-port-symbol="stereo"
+        ></div>
+        <div class="mod-param-title">Stereo</div>
+      </div>
+    </div>
+
+    <div class="logo">
+      <div class="mod-plugin-brand"><h1>{{brand}}</h1></div>
+      <div class="mod-footswitch-container">
+        <div class="mod-footswitch" mod-role="bypass"></div>
+        <div class="power-on-background">
+          <div class="mod-light on" mod-role="bypass-light"></div>
+        </div>
+      </div>
+      <div class="mod-plugin-name"><h1>{{label}}</h1></div>
+    </div>
+  </section>
+
+  <div class="mod-pedal-input">
+    {{#effect.ports.audio.input}}
+    <div
+      class="mod-input mod-input-disconnected"
+      title="{{name}}"
+      mod-role="input-audio-port"
+      mod-port-symbol="{{symbol}}"
+    >
+      <div class="mod-pedal-input-image"></div>
+    </div>
+    {{/effect.ports.audio.input}}
+  </div>
+  <div class="mod-pedal-output">
+    {{#effect.ports.audio.output}}
+    <div
+      class="mod-output mod-output-disconnected"
+      title="{{name}}"
+      mod-role="output-audio-port"
+      mod-port-symbol="{{symbol}}"
+    >
+      <div class="mod-pedal-output-image"></div>
+    </div>
+    {{/effect.ports.audio.output}}
+  </div>
+</div>

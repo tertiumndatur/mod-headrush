@@ -1,0 +1,26 @@
+@prefix modgui: <http://moddevices.com/ns/modgui#> .
+@prefix lv2:    <http://lv2plug.in/ns/lv2core#> .
+
+<http://www.niallmoody.com/ndcplugs/soulforce.htm>
+    modgui:gui [
+        modgui:resourcesDirectory <modgui> ;
+        modgui:iconTemplate <modgui/icon-soul-force.html> ;
+        modgui:stylesheet <modgui/stylesheet-soul-force.css> ;
+        modgui:screenshot <modgui/screenshot-soul-force.png> ;
+        modgui:thumbnail <modgui/thumbnail-soul-force.png> ;
+        modgui:brand "DISTRHO" ;
+        modgui:label "Soul Force" ;
+        modgui:model "boxy" ;
+        modgui:panel "2-knobs" ;
+        modgui:color "black" ;
+        modgui:knob "bronze" ;
+        modgui:port [
+            lv2:index 0 ;
+            lv2:symbol "shape" ;
+            lv2:name "Shape" ;
+        ] , [
+            lv2:index 1 ;
+            lv2:symbol "fback" ;
+            lv2:name "FBack" ;
+        ] ;
+    ] .
